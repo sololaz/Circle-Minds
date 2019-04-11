@@ -1,0 +1,157 @@
+#backGif {display: none;}
+.slicknav_menu{
+    display: none;
+    position: fixed;
+    z-index: 101
+  }
+
+.page-template-page-contacto .sfsi_wicons {
+  width: 24px!important;
+  height: 24px!important;
+  float: left;
+}
+
+.slicknav_nav ul {
+  text-align: right;
+}
+
+@media only screen and (max-device-width : 1024px) { 
+.slicknav_menu {
+  display: block;
+  background: #fff url(../images/logo-mobile.gif) left 50% no-repeat;
+}
+#header {display: none;}
+.cb-slideshow {top:50px;} 
+.cb-slideshow li div h3 {font-size: 2em}
+
+#wrapper {margin-top: 200px}
+
+#contenido {margin-top: 50px}
+.page-template-page-wp-php #contenido {margin-top: 30px}
+
+.page-template-page-wedo-php .description,
+.page-template-page-wp .description h4 {opacity: 1}
+.page-template-page-wedo-php .description{padding: 6px 10px}
+#prev {margin-left: -7px; bottom: 0}
+.page-template-page-contacto #texto {padding-bottom: 220px}
+
+.page-template-page-wedo-php .post:nth-of-type(2) .cat, .page-template-page-wedo-php .post:nth-of-type(3) .cat, .page-template-page-wedo-php .post:nth-of-type(4) .cat, .page-template-page-wedo-php .post:nth-of-type(5) .cat, .page-template-page-wp .post:nth-of-type(2) .cat, .page-template-page-wp .post:nth-of-type(3) .cat, .page-template-page-wp .post:nth-of-type(4) .cat, .page-template-page-wp .post:nth-of-type(5) .cat {height: 120px}
+.page-template-page-wedo-php .post:nth-of-type(2) .cat:nth-of-type(1), .page-template-page-wp .post:nth-of-type(2) .cat:nth-of-type(1) {height: 120px}
+.page-template-page-wedo-php .post .cat, .page-template-page-wp .post .cat {height: 246px}
+.page-template-page-wedo-php .post:nth-of-type(1), .page-template-page-wp .post:nth-of-type(1) {height: auto;}
+.page-template-page-wp .post:last-of-type {height: 126px}
+}
+
+@media only screen  and (max-device-width : 768px) { 
+#fake {background:black url(../images/logo.gif) 140px 46px no-repeat!important; background-size: 440px!important}
+.cb-slideshow li div h3 {margin-top: -400px}
+
+.category-hotels .post a:after, .category-restaurants .post a:after, .category-art-design .post a:after, .category-lifestyle .post a:after, .category-luxury-brands .post a:after {margin-left: -130px; width: 730px}
+.archive .post img.attachment-thumbnail {margin-left: -130px}
+
+a[title="Go to website"], iframe {margin-left: -20px}
+.excerpt {width: auto; margin-bottom: 80px}
+
+.excerpt p {width: 470px}
+
+.category-luxury-brands .post, .category-fashion .post, .category-hotels .post, .category-lifestyle .post, .category-art-design .post {margin-bottom: 50px!important}
+
+.single .entry p img {margin-left: -172px}
+
+.page-template-page-wedo-php .post:nth-of-type(2) .cat:nth-of-type(1),
+.page-template-page-wedo-php .post:nth-of-type(3) .cat,
+.page-template-page-wedo-php .post:nth-of-type(3) .cat,
+.page-template-page-wedo-php .post:nth-of-type(4) .cat {height: 247px}
+
+.page-template-page-wedo-php .description {padding: 20px 60px}
+
+.page-template-page-wedo-php .post:last-of-type {width: 100%}
+
+h2#title {font-size: 2.5em!important}
+
+.page-template-page-contacto #imagenFondo img {
+  height: 100%;
+  width: auto;
+}
+
+.page-template-page-intro iframe {margin-left: 0}
+
+}
+
+@media only screen and (max-device-width : 736px){
+/*#wrapper {margin-left: 22px}*/
+.single .entry p img {margin-left: -187px}
+.page-template-page-contacto #wrapper {margin-left: 0}
+.archive .post img.attachment-thumbnail {margin-left: -147px}
+.category-hotels .post a:after, .category-restaurants .post a:after, .category-art-design .post a:after, .category-lifestyle .post a:after, .category-luxury-brands .post a:after {margin-left: -150px}
+}
+
+@media only screen and (max-device-width : 667px) {
+#logo-circle {top: 70px!important}
+#fake {background: black url(../images/logo.gif) 100px -35px no-repeat!important;background-size: 440px!important}
+.cb-slideshow li div h3 {margin-top: -90px!important; line-height: 1.4em!important}
+.excerpt p {width: 390px}
+.single .entry {width: inherit;}
+.single .entry p img {width: 667px; margin-left: -190px; height: auto;}
+a[title="Go to website"], iframe {width: 667px;margin-left: -40px}
+.page-template-page-contacto #imagenFondo img {width: 100%; height: auto;}
+}
+
+@media only screen and (max-device-width : 568px) {
+#fake {background: black url(../images/logo.gif) 49px -35px no-repeat!important;background-size: 440px!important}
+.page-template-page-intro-php #texto p img, #texto {width: 100%}
+.page-template-page-intro iframe {width: 100%}
+.category-luxury-brands .post, .category-restaurants .post, .category-hotels .post, .category-lifestyle .post, .category-art-design .post {padding: 0 80px 20px}
+.archive .post img.attachment-thumbnail {margin-left: -80px; width: 568px}
+.single .entry p img {width: 658px;margin-left: -158px}
+.single .entry p {padding: 0 20px}
+a[title="Go to website"], iframe {width: 568px;}
+.page-template-page-wedo-php .description {padding: 7px 20px}
+.page-template-page-contacto-php .post {padding: 0px 130px}
+.page-template-page-contacto .sfsi_wicons {float: none;}
+}
+
+@media only screen and (max-device-width : 480px) {
+#fake {background: black url(../images/logo.gif) 6px -35px no-repeat!important;background-size: 440px!important}
+.page-template-page-wedo-php .post .cat, .page-template-page-wp .post .cat {height: 120px;}
+.post {width: 100%!important}
+.page-template-page-wp .description h4,
+.page-template-page-wp .post:nth-of-type(1) .description h4 {margin-top: auto}
+.category-luxury-brands .post, .category-restaurants .post, .category-hotels .post, .category-lifestyle .post, .category-art-design .post {padding: 0 0px 20px}
+.excerpt p {width: 100%;padding: 0 40px}
+.archive .post img.attachment-thumbnail {width: 480px; margin-left: 0}
+.category-hotels .post a:after, .category-restaurants .post a:after, .category-art-design .post a:after, .category-lifestyle .post a:after, .category-luxury-brands .post a:after {width: 480px; margin-left: -480px}
+.single .entry p img {width: 480px; margin-left: -60px; height: auto}
+a[title="Go to website"], iframe {width: 480px}
+.page-template-page-wedo-php .post:nth-of-type(2) .cat:nth-of-type(1), .page-template-page-wedo-php .post:nth-of-type(3) .cat, .page-template-page-wedo-php .post:nth-of-type(3) .cat, .page-template-page-wedo-php .post:nth-of-type(4) .cat {height: 127px}
+.page-template-page-contacto-php .post {padding: 0 50px}
+}
+
+@media only screen and (max-device-width : 414px) {
+#fake {background: black url(../images/logo.gif) 0px -35px no-repeat!important;background-size: 440px!important}
+.cb-slideshow li div h3 {margin-top: -130px}
+.slicknav_menu {background-position: 20px; background-size: 50%}
+.page-template-page-intro #texto h2, .single h2 {width: inherit;}
+.category-luxury-brands .post, .category-restaurants .post, .category-hotels .post, .category-lifestyle .post, .category-art-design .post {width: 100%}
+.archive .post img.attachment-thumbnail {width: 100%; height: auto;}
+.category-hotels .post a:after, .category-restaurants .post a:after, .category-art-design .post a:after, .category-lifestyle .post a:after, .category-luxury-brands .post a:after {margin-top: -110px;margin-left: -420px;width:100%;}
+.single .entry {margin: 0}
+a[title="Go to website"], iframe {width: 100%; margin: 0}
+iframe {height: 195px; margin-bottom: 50px}
+.single .entry p img {margin: 0;width: 100%}
+}
+
+@media only screen and (max-device-width : 375px) {
+#fake {background-position: 50% 50% !important;background-size: 110%!important}
+.category-hotels .post a:after, .category-restaurants .post a:after, .category-art-design .post a:after, .category-lifestyle .post a:after, .category-luxury-brands .post a:after {margin-top: -60px;margin-left: -380px;width:100%;}
+#texto blockquote p, .category .post h2, .contactos p, .page-template-page-intro h2, .single h2, .tk-minion-pro, h2#title span, h3 {width: 100%}
+.single .entry {padding-top: 30px}
+}
+
+@media only screen and (max-device-width : 375px) { 
+#logo-circle {margin: 0px 0 0 -110px}
+.category-hotels .post a:after, .category-restaurants .post a:after, .category-art-design .post a:after, .category-lifestyle .post a:after, .category-luxury-brands .post a:after {margin-left: -330px}
+.page-template-page-contacto-php .post {padding: 0 10px}
+.page-template-page-contacto .sfsi_wicons {float: left;}
+}
+
